@@ -1,5 +1,4 @@
 [workspace]
 members = [
-    "libaeron-sys",
-    "libaeron_driver-sys",
+    "libaeron-sys"
 ]

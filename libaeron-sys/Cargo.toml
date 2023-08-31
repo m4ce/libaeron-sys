@@ -1,19 +1,19 @@
 [package]
 name = "libaeron-sys"
-version = "1.0.0+1.40.0"
+version = "1.0.0+1.42.0"
 authors = ["Bradlee Speice <bradlee@speice.io>"]
 repository = "https://github.com/bspeice/libaeron-sys"
 documentation = "https://docs.rs/libaeron-sys"
 description = "Rust bindings for the Aeron Client"
 license = "Apache-2.0"
-edition = "2018"
+edition = "2021"
 readme = "README.md"
 
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.54"
-cmake = "0.1"
+bindgen = "0.66.1"
+cmake = "0.1.50"
 dunce = "1.0"
 
 [features]
